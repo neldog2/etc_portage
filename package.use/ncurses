@@ -1,0 +1,2 @@
+# sys-libs/ncurses +gpm causes a circular dependency.
+sys-libs/ncurses -gpm

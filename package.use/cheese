@@ -1,0 +1,4 @@
+# required by media-video/cheese-3.28.0::gentoo
+# required by cheese (argument)
+>=media-libs/gst-plugins-base-1.14.4-r1 theora
+

@@ -1,0 +1,2 @@
+dev-qt/qt-creator android autotools baremetal cmake cppcheck git doc glsl ios modeling python qbs scxml serialterminal subversion valgrind beautifier lsp perfprofiler qmlprofiler webengine
+#  -bazaar -beautifier -boot2qt (-clang) -clearcase -ctfvisualizer -cvs -lsp -mcu -mercurial -nim -perforce -perfprofiler -qmlprofiler -qnx -remotelinux -silversearcher -systemd -test -webassembly -webengine

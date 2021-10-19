@@ -1,0 +1,5 @@
+media-sound/cantata taglib cddb
+# required by media-sound/cantata-2.4.2::gentoo
+# required by cantata (argument)
+>=dev-lang/perl-5.30.3 ithreads
+

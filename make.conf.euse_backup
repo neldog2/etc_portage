@@ -1,0 +1,32 @@
+
+# CPU arch CFLAGS
+#
+# AMD ryzen not supported in older gcc, use march=bdver4 with fma4, tbm, xop, lwp disabled.
+# As of gcc8 we might be able to switch to march=znver1
+
+CFLAGS="-O2 -march=bdver4 -mno-fma4 -mno-tbm -mno-xop -mno-lwp"
+CXXFLAGS="${CFLAGS}"
+
+# Portage settings
+PORTDIR="/usr/portage"
+DISTDIR="/usr/portage/distfiles"
+PKGDIR="/usr/portage/packages"
+ACCEPT_LICENSE="*"
+
+LC_MESSAGES=C
+MAKEOPTS="-j9"
+
+USE="-systemd -pulseaudio -wayland \
+    alsa ipv6 hamlib rtlsdr jack hwaccel icu ssl"
+
+PORTDIR_OVERLAY="/usr/local/portage"
+INPUT_DEVICES="evdev joystick keyboard mouse"
+VIDEO_CARDS="nvidia vesa"
+
+QEMU_SOFTMMU_TARGETS="x86_64 x86 i386 aarch64 arm mips mips64 sparc sparc64"
+QEMU_USER_TARGETS="x86_64 x86 i386 aarch64 arm mips mips64 sparc sparc64"
+
+FEATURES="ccache"
+#GENTOO_MIRRORS="ftp://cosmos.illinois.edu/pub/gentoo/ http://cosmos.illinois.edu/pub/gentoo/"
+GENTOO_MIRRORS="http://gentoo.mirrors.pair.com/"
+

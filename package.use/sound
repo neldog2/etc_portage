@@ -1,0 +1,4 @@
+# required by media-sound/pulseaudio-13.0::gentoo[alsa-plugin,alsa]
+# required by pulseaudio (argument)
+>=media-plugins/alsa-plugins-1.2.1 pulseaudio
+media-sound/pulseaudio equalizer realtime sox

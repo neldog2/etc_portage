@@ -1,0 +1,5 @@
+# required by www-client/chromium-72.0.3626.96::gentoo
+# required by www-client/chromium (argument)
+>=net-libs/nodejs-8.12.0 inspector
+
+www-client/chromium hangouts system-ffmpeg system-icu system-libvpx -tcmalloc

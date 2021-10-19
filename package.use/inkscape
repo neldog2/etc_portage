@@ -1,0 +1,8 @@
+media-gfx/inkscape python_single_target_python3_8
+# required by media-gfx/inkscape-1.0.2-r1::gentoo[python_single_target_python3_8]
+# required by inkscape (argument)
+>=dev-python/lxml-4.6.3-r1 python_targets_python3_8
+# required by media-gfx/inkscape-1.0.2-r1::gentoo[python_single_target_python3_8]
+# required by inkscape (argument)
+>=media-gfx/scour-0.38.2 python_targets_python3_8
+

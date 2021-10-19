@@ -1,0 +1,7 @@
+#
+# xephyr is handy for testing wm configuration changes without 
+# actually restarting your wm. (Just run x in x) (requires kdrive)
+#
+# xcsecurity is needed for ssh-forwarding X applications with `ssh -X`.
+# 
+x11-base/xorg-server xephyr xcsecurity kdrive

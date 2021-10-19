@@ -1,0 +1,4 @@
+# required by x11-misc/synergy-1.9.1-r1::gentoo[qt5]
+# required by =x11-misc/synergy-1.9.1-r1 (argument)
+>=net-dns/avahi-0.8-r2 mdnsresponder-compat
+

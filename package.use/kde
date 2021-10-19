@@ -1,0 +1,5 @@
+# required by kde-plasma/plasma-workspace-5.20.5-r4::gentoo
+# required by kde-plasma/kdeplasma-addons-5.20.5::gentoo
+# required by kde-plasma/plasma-meta-5.20.5::gentoo
+# required by plasma-meta (argument)
+>=kde-frameworks/prison-5.80.0 qml

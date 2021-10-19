@@ -1,0 +1,8 @@
+
+
+# At the time of writing, the only wxpython that doesn't need python2.7 is >=4.0, which is
+# still marked ~amd64 - python2.7 support is being removed from portage, trying to be pro-active
+# here and bumping to the unstable version so we don't depend on the python version that's being
+# phased out.
+
+=dev-python/wxpython-4.0.7 ~amd64

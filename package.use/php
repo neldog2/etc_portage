@@ -1,0 +1,7 @@
+dev-lang/php curl sqlite pdo coverage xmlreader xmlwriter gd pcntl embed imap
+>=dev-perl/GD-2.560.0-r1 png
+>=media-libs/gd-2.2.5-r2 png
+
+dev-php/xdebug php_targets_php7-0
+
+

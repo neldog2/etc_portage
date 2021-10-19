@@ -1,0 +1,13 @@
+net-wireless/cubicsdr **
+# required by net-wireless/soapysdr-0.7.0::gentoo[rtlsdr]
+# required by net-wireless/cubicsdr-9999::gentoo
+# required by cubicsdr (argument)
+=net-wireless/soapyrtlsdr-0.2.5-r1 ~amd64
+# required by net-wireless/cubicsdr-9999::gentoo
+# required by cubicsdr (argument)
+=net-libs/liquid-dsp-1.3.1 ~amd64
+# required by net-wireless/cubicsdr-9999::gentoo
+# required by cubicsdr (argument)
+=net-wireless/soapysdr-0.7.1 ~amd64
+=net-wireless/soapyuhd-0.3.6 ~amd64
+

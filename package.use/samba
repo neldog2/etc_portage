@@ -1,0 +1,3 @@
+net-fs/samba python_single_target_python3_8
+sys-libs/ldb python_single_target_python3_8
+

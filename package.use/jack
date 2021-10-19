@@ -1,0 +1,9 @@
+# required by media-sound/jack2-1.9.16::gentoo[opus]
+# required by virtual/jack-1::gentoo
+# required by media-plugins/alsa-plugins-1.2.2::gentoo[jack]
+# required by media-sound/pulseaudio-13.0::gentoo[alsa-plugin,alsa]
+# required by app-emulation/virtualbox-6.1.16-r1::gentoo[pulseaudio]
+# required by @selected
+# required by @world (argument)
+media-libs/opus custom-modes
+

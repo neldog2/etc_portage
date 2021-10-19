@@ -1,0 +1,14 @@
+
+# minikube --------------------------------------------------------------------
+
+=sys-cluster/minikube-0.28.0-r1 ~amd64
+# required by sys-cluster/minikube-0.28.0-r1::gentoo
+# required by sys-cluster/minikube (argument)
+=dev-go/go-bindata-0_pre20151023 ~amd64
+# required by sys-cluster/minikube-0.28.0-r1::gentoo
+# required by sys-cluster/minikube (argument)
+=sys-cluster/kubectl-1.11.1 ~amd64
+
+# helm ------------------------------------------------------------------------
+
+=app-admin/helm-2.9.1 ~amd64

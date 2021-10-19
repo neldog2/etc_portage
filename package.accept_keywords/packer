@@ -1,0 +1,5 @@
+app-emulation/packer **
+# required by app-emulation/packer-9999::x-portage
+# required by app-emulation/packer (argument)
+=dev-go/gox-0.4.0 ~amd64
+

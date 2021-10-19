@@ -1,0 +1,4 @@
+dev-python/scipy python_targets_python3_8
+# required by dev-python/scipy-1.5.2::gentoo
+# required by dev-python/scipy (argument)
+dev-python/pybind11 python_targets_python3_8

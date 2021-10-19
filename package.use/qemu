@@ -1,0 +1,20 @@
+app-emulation/qemu -sdl python_targets_python3_8 spice
+app-emulation/virt-manager python_single_target_python3_8
+# required by app-emulation/virt-manager-3.2.0::gentoo[python_single_target_python3_8]
+# required by virt-manager (argument)
+>=dev-libs/libxml2-2.9.12-r3 python_targets_python3_8
+# required by app-emulation/virt-manager-3.2.0::gentoo[python_single_target_python3_8]
+# required by virt-manager (argument)
+>=dev-python/argcomplete-1.12.3 python_targets_python3_8
+# required by app-emulation/virt-manager-3.2.0::gentoo[python_single_target_python3_8]
+# required by virt-manager (argument)
+>=dev-python/libvirt-python-7.3.0 python_targets_python3_8
+# required by app-emulation/virt-manager-3.2.0::gentoo[gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.37-r2 usbredir
+# required by app-emulation/libvirt-7.3.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-3.2.0::gentoo
+# required by virt-manager (argument)
+>=net-dns/dnsmasq-2.85 script
+

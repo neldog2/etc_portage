@@ -1,0 +1,38 @@
+sys-fs/mdadm static
+# required by app-portage/portage-utils-0.64::gentoo[static]
+# required by sys-auth/pambase-20150213-r1::gentoo
+# required by sys-auth/polkit-0.113-r4::gentoo[pam]
+# required by sys-auth/consolekit-1.2.0::gentoo[policykit]
+dev-libs/iniparser static-libs
+# required by net-misc/rsync-3.1.3::gentoo[xattr,static]
+# required by @system
+# required by @world (argument)
+sys-apps/attr static-libs
+# required by net-misc/rsync-3.1.3::gentoo[static]
+# required by @system
+# required by @world (argument)
+dev-libs/popt static-libs
+# required by dev-libs/openssl-1.0.2o::gentoo[zlib]
+# required by net-misc/wget-1.19.1-r2::gentoo[static,-libressl,ssl,-gnutls]
+# required by @system
+# required by @world (argument)
+sys-libs/zlib static-libs
+# required by net-misc/wget-1.19.1-r2::gentoo[static,pcre]
+# required by @system
+# required by @world (argument)
+dev-libs/libpcre static-libs
+# required by sys-apps/coreutils-8.28-r1::gentoo[static,acl]
+# required by @system
+# required by @world (argument)
+sys-apps/acl static-libs
+# required by net-misc/wget-1.19.1-r2::gentoo[static,-libressl,ssl,-gnutls]
+# required by @system
+# required by @world (argument)
+dev-libs/openssl static-libs
+sys-devel/gettext static-libs
+# required by sys-libs/libunwind-1.4.0::gentoo[lzma]
+# required by sys-libs/libcxxabi-10.0.0::gentoo[libunwind]
+# required by sys-libs/libcxx-10.0.0::gentoo
+# required by sys-libs/libcxx (argument)
+app-arch/xz-utils static-libs
+

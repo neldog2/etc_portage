@@ -1,0 +1,6 @@
+=dev-lang/gnat-gpl-2021 ~amd64
+=dev-ada/gtkada-2021 ~amd64
+=dev-ada/gnatcoll-bindings-2021 ~amd64
+=dev-ada/gnatcoll-core-2021-r1 ~amd64
+=dev-ada/libgpr-2021 ~amd64
+=dev-ada/xmlada-2021-r1 ~amd64

@@ -1,0 +1,4 @@
+# required by media-radio/wsjtx-1.8.0::gentoo
+# required by wsjtx (argument)
+>=sci-libs/fftw-3.3.6_p2 threads
+sci-electronics/xnec2c examples

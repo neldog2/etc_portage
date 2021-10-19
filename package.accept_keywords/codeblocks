@@ -1,0 +1,7 @@
+=dev-util/codeblocks-17.12 ~amd64
+# required by codeblocks (argument)
+=dev-util/codeblocks-17.12-r301 ~amd64
+# required by dev-util/codeblocks-17.12-r301::gentoo
+# required by codeblocks (argument)
+=dev-libs/tinyxml-2.6.2-r3 ~amd64
+

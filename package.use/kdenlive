@@ -1,0 +1,4 @@
+# required by kde-apps/kdenlive-18.08.3::gentoo
+# required by kdenlive (argument)
+>=media-libs/mlt-6.12.0 kdenlive frei0r ffmpeg melt
+

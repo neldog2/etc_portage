@@ -1,0 +1,5 @@
+# required by media-sound/ardour-5.12::gentoo
+# required by ardour (argument)
+=media-libs/suil-0.10.0 ~amd64
+
+media-sound/ardour:5 ~amd64

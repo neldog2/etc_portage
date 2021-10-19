@@ -1,0 +1,6 @@
+# required by gnome-base/gnome-keyring-3.20.1::gentoo
+# required by app-crypt/libsecret-0.18.6::gentoo
+# required by net-im/slack-bin-3.1.0::gentoo
+# required by slack-bin (argument)
+>=app-crypt/pinentry-1.0.0-r2 gnome-keyring
+

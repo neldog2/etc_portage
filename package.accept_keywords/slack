@@ -1,0 +1,10 @@
+# required by slack-bin (argument)
+=net-im/slack-4.3.2-r2 ~amd64
+=net-im/slack-4.11.3 ~amd64
+# required by net-im/slack-bin-3.1.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.38 ~amd64
+
+=dev-python/soappy-0.12.22 ~amd64
+

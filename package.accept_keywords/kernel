@@ -1,0 +1,6 @@
+=sys-kernel/gentoo-sources-5.9.14 ~amd64
+=x11-drivers/nvidia-drivers-455.45.01-r1 ~amd64
+=app-emulation/virtualbox-modules-6.1.16-r1 ~amd64
+=app-emulation/virtualbox-6.1.16-r1 ~amd64
+=sys-kernel/vanilla-sources-5.8.0 ~amd64
+

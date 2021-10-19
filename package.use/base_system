@@ -1,0 +1,15 @@
+# Statically compile important system binaries and diagnostic tools.
+dev-util/strace static
+sys-apps/coreutils static
+sys-apps/net-tools static
+sys-apps/util-linux tty-helpers
+net-misc/iputils static traceroute tracepath tftpd
+net-misc/rsync static
+# required by net-misc/rsync-3.1.3::gentoo[acl,static]
+# required by @system
+# required by @world (argument)
+>=virtual/acl-0-r2 static-libs
+net-misc/wget static
+app-portage/portage-utils static
+app-shells/bash static plugins
+

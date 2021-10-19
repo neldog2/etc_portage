@@ -1,0 +1,2 @@
+media-sound/mpd alsa audiofile bzip2 cue curl dbus eventfd ffmpeg fifo flac icu id3tag inotify ipv6 jack libsamplerate libsoxr mad modplug musepack network openal opus pulseaudio twolame udisks unicode vorbis wavpack zlib lame mikmod sid soundcloud sqlite
+

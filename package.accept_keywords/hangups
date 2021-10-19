@@ -1,0 +1,12 @@
+# required by dev-python/aiohttp-3.4.4::gentoo
+# required by dev-python/aiohttp (argument)
+=dev-python/async_timeout-3.0.0 ~amd64
+# required by dev-python/aiohttp-3.4.4::gentoo
+# required by dev-python/aiohttp (argument)
+=dev-python/idna-ssl-1.1.0 ~amd64
+# required by dev-python/aiohttp-3.4.4::gentoo
+# required by dev-python/aiohttp (argument)
+=dev-python/attrs-18.2.0 ~amd64
+# required by dev-python/aiohttp (argument)
+=dev-python/aiohttp-3.4.4 ~amd64
+

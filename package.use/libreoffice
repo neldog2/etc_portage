@@ -1,0 +1,19 @@
+# required by app-office/libreoffice-5.4.5.1::gentoo
+# required by libreoffice (argument)
+>=dev-libs/xmlsec-1.2.24-r1 nss
+# required by app-office/libreoffice-5.4.5.1::gentoo
+# required by libreoffice (argument)
+>=media-libs/harfbuzz-1.7.2 icu
+# required by dev-util/kdevelop-5.2.4::gentoo[-webkit]
+# required by kdevelop (argument)
+>=dev-qt/qtwebengine-5.11.1 widgets
+# required by dev-qt/qtwebengine-5.11.1::gentoo
+# required by dev-util/kdevelop-5.2.4::gentoo[-webkit]
+# required by kdevelop (argument)
+>=dev-qt/qtwebchannel-5.11.1 qml
+# required by dev-qt/qtwebengine-5.11.1::gentoo
+# required by dev-util/kdevelop-5.2.4::gentoo[-webkit]
+# required by kdevelop (argument)
+>=dev-libs/libxml2-2.9.8 icu
+
+app-office/libreoffice python_single_target_python3_8

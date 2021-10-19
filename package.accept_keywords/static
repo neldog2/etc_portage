@@ -1,0 +1,5 @@
+# required by sys-kernel/genkernel-3.5.3.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/util-linux-2.32-r4 static-libs
+

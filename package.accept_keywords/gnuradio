@@ -1,0 +1,8 @@
+=net-wireless/urh-2.8.8 ~amd64
+=net-wireless/uhd-4.0.0.0 ~amd64
+=net-wireless/gnuradio-3.8.2.0-r1 ~amd64
+=net-wireless/gqrx-9999 **
+=sci-libs/volk-2.4.1 ~amd64
+=dev-python/click-plugins-1.1.1 ~amd64
+=net-wireless/gr-osmosdr-0.2.3 ~amd64
+=net-wireless/airspy-1.0.9 ~amd64

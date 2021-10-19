@@ -1,0 +1,417 @@
+# required by sci-libs/scipy-0.19.1::gentoo
+# required by net-wireless/gnuradio-3.7.13.4::gentoo[filter]
+# required by gnuradio (argument)
+>=dev-python/numpy-1.10.4 lapack
+# required by net-wireless/urh-9999::gentoo
+# required by net-wireless/urh (argument)
+>=net-wireless/gnuradio-3.7.13.5-r2 zeromq
+# required by net-wireless/urh-9999::gentoo
+# required by net-wireless/urh (argument)
+>=dev-python/PyQt5-5.13.2 testlib
+# required by dev-python/pyzmq-17.1.0::gentoo
+# required by net-wireless/urh-9999::gentoo
+# required by net-wireless/urh (argument)
+>=net-libs/zeromq-4.3.2 drafts
+# required by dev-python/PyQt5-5.13.2::gentoo[multimedia]
+# required by dev-python/PyQt5 (argument)
+>=dev-qt/qtmultimedia-5.13.2-r1 widgets
+
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/requests-2.24.0-r1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[python_single_target_python3_8,grc,utils]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/mako-1.1.3-r1 python_targets_python3_8
+# required by dev-python/mako-1.1.3-r1::gentoo
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[python_single_target_python3_8,grc,utils]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/markupsafe-1.1.1-r1 python_targets_python3_8
+# required by dev-python/pyparsing-2.4.7-r1::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/setuptools-50.3.0 python_targets_python3_8
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/certifi-10001-r1 python_targets_python3_8
+# required by dev-python/python-dateutil-2.8.1-r2::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/setuptools_scm-4.1.2-r1 python_targets_python3_8
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/chardet-3.0.4-r1 python_targets_python3_8
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/idna-2.10-r1 python_targets_python3_8
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/urllib3-1.25.11 python_targets_python3_8
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/service_identity-18.1.0-r1::gentoo
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cryptography-3.2 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/six-1.15.0-r1 python_targets_python3_8
+# required by dev-python/cryptography-3.2::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/pyopenssl-19.1.0-r1::gentoo
+# required by dev-python/service_identity-18.1.0-r1::gentoo
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cffi-1.14.0-r3 python_targets_python3_8
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by dev-python/xcffib-0.10.1::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/cairocffi-1.1.0::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[cairo,-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pycparser-2.20-r1 python_targets_python3_8
+# required by dev-python/pycparser-2.20-r1::gentoo
+# required by dev-python/cffi-1.14.0-r3::gentoo
+# required by dev-python/xcffib-0.10.1::gentoo[-python_targets_python3_9,python_targets_python3_7,python_targets_python3_8,-python_targets_python3_6]
+# required by dev-python/cairocffi-1.1.0::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[cairo,-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/ply-3.11-r1 python_targets_python3_8
+# required by dev-python/urllib3-1.25.11::gentoo
+# required by dev-python/requests-2.24.0-r1::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/PySocks-1.7.1-r1 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyopenssl-19.1.0-r1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-libs/boost-1.74.0-r1 python python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/numpy-1.19.2 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[grc,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pygobject-3.36.1-r1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[grc,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyyaml-5.3.1-r1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[qt5,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/PyQt5-5.14.2-r1 python_targets_python3_8
+# required by dev-python/click-plugins-1.1.1::gentoo
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/click-7.1.2-r1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/click-plugins-1.1.1 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/matplotlib-3.3.2 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cycler-0.10.0-r1 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/kiwisolver-1.2.0 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pillow-7.2.0 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyparsing-2.4.7-r1 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/python-dateutil-2.8.1-r2 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pytz-2020.1-r1 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/versioneer-0.18-r1 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=www-servers/tornado-6.0.4 python_targets_python3_8
+# required by dev-python/matplotlib-3.3.2::gentoo[cairo,-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cairocffi-1.1.0 python_targets_python3_8
+# required by dev-python/cairocffi-1.1.0::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[cairo,-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/xcffib-0.10.1 python_targets_python3_8
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pycurl-7.43.0.6 python_targets_python3_8
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/twisted-20.3.0 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/attrs-20.1.0-r1 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/automat-20.2.0 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/constantly-15.1.0-r1 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/hyperlink-20.0.1 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/incremental-17.5.0 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyhamcrest-2.0.2 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/zope-interface-5.1.2 python_targets_python3_8
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/service_identity-18.1.0-r1 python_targets_python3_8
+# required by dev-python/pyasn1-modules-0.2.8-r1::gentoo[-test]
+# required by dev-python/service_identity-18.1.0-r1::gentoo
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyasn1-0.4.8-r1 python_targets_python3_8
+# required by dev-python/service_identity-18.1.0-r1::gentoo
+# required by dev-python/twisted-20.3.0::gentoo[crypt]
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pyasn1-modules-0.2.8-r1 python_targets_python3_8
+# required by dev-python/zope-interface-5.1.2::gentoo
+# required by dev-python/attrs-20.1.0-r1::gentoo
+# required by dev-python/automat-20.2.0::gentoo[-test]
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/namespace-zope-1-r1 python_targets_python3_8
+# required by dev-python/automat-20.2.0::gentoo
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/m2r-0.2.1 python_targets_python3_8
+# required by dev-python/m2r-0.2.1::gentoo[-test]
+# required by dev-python/automat-20.2.0::gentoo
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/docutils-0.16-r1 python_targets_python3_8
+# required by dev-python/m2r-0.2.1::gentoo[-test]
+# required by dev-python/automat-20.2.0::gentoo
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/mistune-0.8.4-r1 python_targets_python3_8
+# required by dev-python/docutils-0.16-r1::gentoo
+# required by dev-python/m2r-0.2.1::gentoo[-test]
+# required by dev-python/automat-20.2.0::gentoo
+# required by dev-python/twisted-20.3.0::gentoo
+# required by www-servers/tornado-6.0.4::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pygments-2.7.2 python_targets_python3_8
+# required by dev-python/pillow-7.2.0::gentoo
+# required by dev-python/scipy-1.5.2::gentoo
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[-trellis,fec,filter]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/olefile-0.46-r1 python_targets_python3_8
+# required by dev-python/kiwisolver-1.2.0::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cppy-1.1.0 python_targets_python3_8
+# required by dev-python/PyQt5-5.14.2-r1::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test,qt5]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/PyQt5-sip-4.19.24 python_targets_python3_8
+# required by dev-python/PyQt5-5.14.2-r1::gentoo[dbus]
+# required by dev-python/matplotlib-3.3.2::gentoo[-test,qt5]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/dbus-python-1.2.16-r1 python_targets_python3_8
+# required by dev-python/PyQt5-5.14.2-r1::gentoo
+# required by dev-python/matplotlib-3.3.2::gentoo[-test,qt5]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/sip-4.19.24 python_targets_python3_8
+# required by dev-python/numpy-1.19.2::gentoo
+# required by net-wireless/uhd-4.0.0.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[uhd,python_single_target_python3_8,-python_single_target_python3_6,-python_single_target_python3_7]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/cython-0.29.21-r1 python_targets_python3_8
+# required by dev-python/pygobject-3.36.1-r1::gentoo[cairo]
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[grc,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+>=dev-python/pycairo-1.20.0 python_targets_python3_8
+# required by net-wireless/gnuradio-3.8.2.0::gentoo[python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.2::gentoo
+# required by gr-osmosdr (argument)
+=dev-libs/boost-1.72.0-r2 python python_targets_python3_8
+
+# required by net-wireless/gnuradio-3.8.2.0-r1::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.3::gentoo
+# required by net-wireless/gqrx-9999::gentoo
+# required by gqrx (argument)
+>=dev-python/wxpython-4.0.7 python_targets_python3_8
+# required by dev-python/wxpython-4.0.7::gentoo
+# required by dev-python/matplotlib-3.3.3-r1::gentoo[python_targets_python3_8,python_targets_python3_7,wxwidgets,-test]
+# required by net-wireless/gnuradio-3.8.2.0-r1::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.3::gentoo
+# required by net-wireless/gqrx-9999::gentoo
+# required by gqrx (argument)
+>=x11-libs/wxGTK-3.0.4-r302 gstreamer
+# required by dev-python/wxpython-4.0.7::gentoo
+# required by dev-python/matplotlib-3.3.3-r1::gentoo[python_targets_python3_8,python_targets_python3_7,wxwidgets,-test]
+# required by net-wireless/gnuradio-3.8.2.0-r1::gentoo[utils,python_single_target_python3_8]
+# required by net-wireless/gr-osmosdr-0.2.3::gentoo
+# required by net-wireless/gqrx-9999::gentoo
+# required by gqrx (argument)
+>=dev-python/pathlib2-2.3.5-r1 python_targets_python3_8
+
+net-wireless/gr-osmosdr python -python_single_target_python3_7 python_single_target_python3_8
+net-wireless/gnuradio noaa fcd portaudio pager grc dtv doc examples atsc channels log fec -python_single_target_python3_7 python_single_target_python3_8
+net-wireless/uhd usrp2 utils examples -python_single_target_python3_7 python_single_target_python3_8
+
+# op25 dependencies:
+dev-python/waitress -python_single_target_python3_7 python_single_target_python3_8 python_targets_python3_8
+dev-python/httplib2 python_targets_python3_8
+dev-python/pyzmq python_targets_python3_8
+# required by dev-python/pyzmq-19.0.2::gentoo
+# required by pyzmq (argument)
+>=dev-python/py-1.10.0 python_targets_python3_8
+

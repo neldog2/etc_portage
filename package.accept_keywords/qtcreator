@@ -1,0 +1,4 @@
+dev-qt/qt-creator **
+=dev-util/qbs-1.18.0 ~amd64
+=dev-qt/qtquicktimeline-5.15.2 ~amd64
+

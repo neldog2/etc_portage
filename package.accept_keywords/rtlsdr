@@ -1,0 +1,11 @@
+=net-wireless/rtl-sdr-9999 **
+=net-wireless/gqrx-9999 **
+# required by net-wireless/gqrx-9999::gentoo
+# required by gqrx (argument)
+=net-wireless/gr-osmosdr-0.1.4_p20180626 ~amd64
+=net-wireless/gr-iqbal-0.37.2 ~amd64
+# required by net-wireless/gr-iqbal-0.37.2::gentoo
+# required by gr-iqbal (argument)
+=net-libs/libosmo-dsp-0.3 ~amd64
+
+

@@ -1,0 +1,15 @@
+# required by app-portage/portage-utils-0.80::gentoo[qmanifest,static]
+# required by sys-devel/crossdev-20181202::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/libb2-0.98.1-r1 static-libs
+# required by app-portage/portage-utils-0.80::gentoo[qmanifest,static]
+# required by sys-devel/crossdev-20181202::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gpgme-1.13.0-r1 static-libs
+
+cross-aarch64-unknown-linux-gnu/binutils -multilib
+cross-aarch64-unknown-linux-gnu/linux-headers -selinux -multilib
+cross-aarch64-unknown-linux-gnu/glibc -selinux -multilib
+cross-aarch64-unknown-linux-gnu/gcc -vtv -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

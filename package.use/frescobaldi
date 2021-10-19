@@ -1,0 +1,7 @@
+# required by dev-python/PyQtWebEngine-5.14.0::gentoo
+# required by media-sound/frescobaldi-3.1.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/PyQt5-5.14.1 webchannel
+
+
